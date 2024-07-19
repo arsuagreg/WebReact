@@ -1,0 +1,135 @@
+.add-doctor-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading {
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-button {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+button[type="button"] {
+    background-color: #28a745;
+}
+
+button[type="button"]:hover {
+    background-color: #218838;
+}
+
+.form-group-dynamic {
+    margin-bottom: 15px;
+}
+
+.form-group-dynamic label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group-dynamic input[type="text"],
+.form-group-dynamic input[type="email"],
+.form-group-dynamic input[type="tel"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.form-group-dynamic button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.form-group-dynamic button:hover {
+    background-color: #218838;
+}
