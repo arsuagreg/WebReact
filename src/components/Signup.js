@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createAccount } from './service/ApiService';
@@ -48,10 +49,17 @@ function Signup() {
         setErrorMessage('');
     };
 
+=======
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+function Signup() {
+>>>>>>> f679895b51856268eb11053aec83fefa70b479c8
     return (
         <div className="auth-container">
             <h1>Signup</h1>
             <div className="form-container">
+<<<<<<< HEAD
                 <form onSubmit={handleSignup}>
                     <div className="form-group">
                         <label className="form-label" htmlFor="email">Email</label>
@@ -94,12 +102,35 @@ function Signup() {
                         />
                     </div>
                     {errorMessage && <div className="error-message">{errorMessage}</div>}
+=======
+                <form>
+                    <div className="form-group">
+                        <label className="form-label" htmlFor="email">Email</label>
+                        <input className="form-input" type="text" id="email" />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label" htmlFor="username">Username</label>
+                        <input className="form-input" type="text" id="username" />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label" htmlFor="password">Password</label>
+                        <input className="form-input" type="password" id="password" />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label" htmlFor="confirm-password">Confirm Password</label>
+                        <input className="form-input" type="password" id="confirm-password" />
+                    </div>
+>>>>>>> f679895b51856268eb11053aec83fefa70b479c8
                     <div className="form-group">
                         <Link className="form-link" to="/login">Already have an account? Login</Link>
                     </div>
                     <div className="form-actions">
                         <button className="btn" type="submit">Signup</button>
+<<<<<<< HEAD
                         <button className="btn btn-secondary" type="button" onClick={handleCancel}>Cancel</button>
+=======
+                        <button className="btn btn-secondary" type="button">Cancel</button>
+>>>>>>> f679895b51856268eb11053aec83fefa70b479c8
                     </div>
                 </form>
             </div>

@@ -97,11 +97,14 @@ h1 {
   margin-top: 1rem;
 }
 
+<<<<<<< HEAD
 .error-message {
   color: red;
   margin-top: 10px;
 }
 
+=======
+>>>>>>> f679895b51856268eb11053aec83fefa70b479c8
 .btn {
   padding: 10px 20px;
   border: none;
